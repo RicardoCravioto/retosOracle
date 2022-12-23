@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background-color: #f178cb;
+  size: 25px;
+}
+
+.entrada {
+  background-color: #eb28ae;
+  border-radius: 9px;
+  color: white;
+}
+
+.cuadrado-2 {
+  border-radius: 9px;
+  border: 3px solid white;
+  background-color: white;
+}
+
+.redondo {
+  border-radius: 5px;
+}
+
+.final {
+  background-color: #eb28ae;
+  color: white;
+}
+
+.imagen {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+}
+
+#salida {
+  text-align: center;
+}
+
+#titulo {
+  text-align: left;
+  color: white;
+}

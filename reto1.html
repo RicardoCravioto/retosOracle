@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="reto1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <img
+            src="https://i0.wp.com/www.atmosfera.unam.mx/wp-content/uploads/2019/06/unam-escudo-azul.png?ssl=1"
+            alt="logo_unam_oro"
+            class="imagen"
+          />
+        </div>
+        <div class="col-sm-9" id="titulo"><h3>Bienvenido al encriptador de texto</h3></div>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 entrada">
+          <input
+            type="text"
+            class="entrada"
+            placeholder="Ingrese el texto aqui"
+            id="entrada"
+          />
+
+          <!-- <textarea name="entrada" cols="30" rows="10"></textarea> -->
+
+          <div class="row">
+            <button
+              type="button"
+              class="btn btn-primary redondo col-lg-2"
+              onclick="encriptar()"
+            >
+              Encriptar
+            </button>
+            <button 
+                type="button" 
+                class="btn btn-secondary redondo col-lg-2" 
+                onclick="desencriptar()"
+            >
+              Desencriptar
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-4 cuadrado-2">
+          <p id="salida">
+             <b> Ningun mensaje fue encontrado </b><br />
+            ingresa el texto que deseas encriptar/desencriptar 
+          </p>
+          <div class="row">
+            <button
+              type="button"
+              id="copiar"
+              class="btn btn-outline-primary redondo"
+              onclick="copiar()"
+              disabled
+            >
+              Copiar
+            </button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 final">
+          <center>Trabajo realizado por Ricardo CM</center>
+        </div>
+      </div>
+    </div>
+    
+    <script src="reto1.js"></script>
+  </body>
+</html>
